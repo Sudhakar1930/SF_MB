@@ -1,5 +1,6 @@
 package testBase.Android;
 
+import pageObjects.Android.*;
 import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -10,6 +11,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.ResourceBundle;
+import java.util.Set;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
@@ -41,6 +43,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.model.Media;
 
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 
@@ -48,6 +51,7 @@ import io.appium.java_client.service.local.AppiumDriverLocalService;
 
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 import io.appium.java_client.service.local.flags.GeneralServerFlag;
+import pageObjects.Android.IndvControls;
 import pageObjects.Android.NavigatetoResponse;
 import testBase.Browser.BaseClass;
 import utilities.ExtentReportManager;
@@ -116,6 +120,7 @@ public void configureAppium() throws MalformedURLException, InterruptedException
 	}
 	
 	public void NavigatetoResponse(String strBuildName,AndroidDriver driver) throws Exception {
+		IndvControls IndvObj = new IndvControls(driver);
 		logger.info("Navigation started");
 		//driver.close();
 		//driver = new ChromeDriver();
@@ -132,18 +137,61 @@ public void configureAppium() throws MalformedURLException, InterruptedException
 		obj.clickSubmit();
 		logger.info("Chat bot Logged In");
 		Thread.sleep(15000);
-		logger.info("Hard wait for 15 secs");
+		obj.clickTopMenu();
+		
+		System.out.println("Set Context Native App");
+		Set<String> gContextNames = driver.getContextHandles();
+        for (String strContextName : gContextNames) {
+            if (strContextName.contains("NATIVE_APP")) {
+                driver.context("NATIVE_APP");
+                break;
+            }
+        }
+        Thread.sleep(3000);
+		System.out.println("Native app set ");
+//		Thread.sleep(5000);
+//		obj.clickBrowserMenu();
+//		Thread.sleep(5000);
+//		obj.clickDesktopSite();
+//		Thread.sleep(5000);
+
+//		obj.action_clickOnPosition(92, 322);
+		Thread.sleep(5000);
+		 //set context to chromium
+	    Set<String> gbcontextNames = driver.getContextHandles();
+        for (String strContextName : gbcontextNames) {
+            if (strContextName.contains("CHROMIUM")) {
+                driver.context("CHROMIUM");
+                break;
+            }
+        }
+		System.out.println("Context back to chromium in NavigatetoResponse");
+		Thread.sleep(5000);
 		obj.clickClearAll();
 		logger.info("clear all button clicked on listbox");
 		obj.setBuildName(strBuildName);
 		logger.info("Build Name entered in List Box");
 		Thread.sleep(3000);
 		logger.info("Waited for 3 secs");
-		obj.KeyEnterBuildName();
+//		obj.KeyEnterBuildName();
 		logger.info("Enter Key applied on ListBox");
 		Thread.sleep(1000);
 		logger.info("Hard Wait for 1 sec");
-		obj.clickSideBarBldBtn();
+		System.out.println("Set Context Native App");
+		Set<String> lContextNames = driver.getContextHandles();
+        for (String strContextName : lContextNames) {
+            if (strContextName.contains("NATIVE_APP")) {
+                driver.context("NATIVE_APP");
+                break;
+            }
+        }
+        Thread.sleep(3000);
+        System.out.println("Native App Set");
+        obj.action_clickOnPosition(87, 322);
+        Thread.sleep(3000);
+        
+        
+//		obj.clickSideBarBldBtn();
 		logger.info("clicked side bar Build button once");
 		Thread.sleep(1000);
 		logger.info("Hard Wait for 1 sec");

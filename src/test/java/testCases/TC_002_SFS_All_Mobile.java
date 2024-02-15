@@ -25,16 +25,17 @@ public class TC_002_SFS_All_Mobile extends BaseTest{
 	public void testSectionContrls() throws Exception {
 		node = test.createNode("Section_Controls_In_Mobile");
 		SurveyFormReUsables oSFRSC = new SurveyFormReUsables(driver);
-		
+		IndvControls IndvObj = new IndvControls(driver);
+		SectionControlsPage SecObj = new SectionControlsPage(driver);
+
 		logger.info("******starting TC_002_SFS_All_Mobile ****");
 		String sBrowserName=utilities.Android.UtilityCustomFunctions.getBrowserName(driver);
 		logger.info("Test Execution on Browser: "+ sBrowserName);
 		System.out.println("Test Execution on Browser: "+ sBrowserName);
-		try{
+//		try{
+//			
 			
 			
-			IndvControls IndvObj = new IndvControls(driver);
-			SectionControlsPage SecObj = new SectionControlsPage(driver);
 			
 			String sPath=".\\testData\\" + "SFS_AllMobile_Tbl_Live" + ".xlsx" ;
 //			String sPath=".\\testData\\" + "SFS_AllMobile_Tbl_Rthree" + ".xlsx" ;
@@ -109,7 +110,14 @@ public class TC_002_SFS_All_Mobile extends BaseTest{
 			logger.info("Extracting DataSheet Values Completed...");
 			
 			oSFRSC.fLaunchUrl(driver, sExpBuildUrl);
-			Thread.sleep(1000);
+			sBrowserName=utilities.Android.UtilityCustomFunctions.getBrowserName(driver);
+			logger.info("Test Execution on Browser: "+ sBrowserName);
+			System.out.println("Test Execution on Browser: "+ sBrowserName);
+			Thread.sleep(5000);
+			System.out.println("Set Context NativeApp for GM");
+			System.out.println("Set Context Native App");
+			System.out.println("Get Context:"+ driver.getContext());
+			
 			Set<String> gContextNames = driver.getContextHandles();
 	        for (String strContextName : gContextNames) {
 	            if (strContextName.contains("NATIVE_APP")) {
@@ -117,6 +125,8 @@ public class TC_002_SFS_All_Mobile extends BaseTest{
 	                break;
 	            }
 	        }
+	        Thread.sleep(3000);
+			System.out.println("Native app set ");
 	        Thread.sleep(3000);
 			System.out.println("Native app set ");
 			Thread.sleep(3000);
@@ -505,10 +515,10 @@ public class TC_002_SFS_All_Mobile extends BaseTest{
 			 
 			 
 			
-		}
-		catch(Exception e) {
-			System.out.println(e.getCause());
-			Assert.fail(e.getMessage());
-		}//try catch
+//		}
+//		catch(Exception e) {
+//			System.out.println(e.getCause());
+//			Assert.fail(e.getMessage());
+//		}//try catch
 	}//test
 }//class	

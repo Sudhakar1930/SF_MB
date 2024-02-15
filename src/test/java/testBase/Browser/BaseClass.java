@@ -10,6 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.ResourceBundle;
 
+import pageObjects.Browser.*;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
@@ -42,7 +43,7 @@ import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.model.Media;
 
 
-import pageObjects.Android.NavigatetoResponse;
+
 import utilities.ExtentReportManager;
 
 
@@ -253,13 +254,14 @@ public class BaseClass extends ExtentReportManager{
 	}
 	
 	public void NavigatetoResponse(String strBuildName,WebDriver driver) throws Exception {
+
 		logger.info("Navigation started");
 		//driver.close();
 		//driver = new ChromeDriver();
-		NavigatetoResponse obj = new NavigatetoResponse(driver);
-//		driver.get("https://rthree.live/");
-		driver.get("https://rbot.live/");
 		
+		driver.get("https://rthree.live/");
+//		driver.get("https://rbot.live/");
+		NavigatetoResponse obj = new NavigatetoResponse(driver);
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.manage().window().maximize();
@@ -269,6 +271,8 @@ public class BaseClass extends ExtentReportManager{
 		obj.clickSubmit();
 		logger.info("Chat bot Logged In");
 		Thread.sleep(2000);
+		
+		
 		System.out.println("Before checking CloseAllVisible");
 		System.out.println("is close all: " + obj.bIsCloseAllVisible());
 		if(obj.bIsCloseAllVisible()) {

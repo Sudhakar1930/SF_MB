@@ -36,7 +36,26 @@ public class UtilityCustomFunctions extends BaseClass {
 	    String browserName = cap.getBrowserName().toLowerCase();
 		return browserName;
 	}
-
+	public static void logWriteConsole(String sText) {
+		logger.info(sText);
+		System.out.println(sText);
+	}
+	public static boolean IsElementVisible(WebDriver driver,WebElement element) {
+		boolean bIsElementVisible=false;
+		try {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(50));
+		wait.until(ExpectedConditions.elementToBeClickable(element));
+		wait.until(ExpectedConditions.visibilityOf(element));
+		js.executeScript("arguments[0].scrollIntoView();", element);
+		bIsElementVisible = true;
+		System.out.println(element.getTagName() + " Exist" + " True");
+		}catch(Exception e) {
+			bIsElementVisible = false;
+			System.out.println(element.getTagName() + " Exist" + " False");
+		}
+		return bIsElementVisible;
+	}
 	public static void sendKeys(WebDriver webDriver, WebElement element, String keyValue) {
 		try {
 			JavascriptExecutor js = (JavascriptExecutor) webDriver;

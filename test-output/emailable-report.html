@@ -9,10 +9,20 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">chrometest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">401,479</td><td></td><td></td></tr>
+<tr><td><a href="#t0">chrometest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">37,223</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">chrometest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC_001_SFI_All_Mobile</td><td><a href="#m0">TestMobileIndividualControls</a></td><td rowspan="1">1705748226680</td><td rowspan="1">385869</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">chrometest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC_001_SFI_All_Mobile</td><td><a href="#m0">TestMobileIndividualControls</a></td><td rowspan="1">1706081273397</td><td rowspan="1">22720</td></tr></tbody>
 </table>
-<h2>chrometest</h2><h3 id="m0">testCases.TC_001_SFI_All_Mobile#TestMobileIndividualControls</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>chrometest</h2><h3 id="m0">testCases.TC_001_SFI_All_Mobile#TestMobileIndividualControls</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: javascript error: arguments[0].click is not a function
+  (Session info: chrome=120.0.6099.144)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [7f7e75e0-f5ac-466a-8c84-33df79599a7c, executeScript {script=arguments[0].click();, args=[document.getElementById(content)]}]
+Capabilities {appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, autoGrantPermissions: true, automationName: UiAutomator2, browserName: Chrome, deviceName: RZCWA1JJM5L, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14.0}, appium:deviceApiLevel: 34, appium:deviceManufacturer: samsung, appium:deviceModel: SM-E146B, appium:deviceName: RZCWA1JJM5L, appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2408, appium:deviceUDID: RZCWA1JJM5L, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2.8125, appium:platformVersion: 14, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:viewportRect: {height: 2344, left: 0, top: 64, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, browserName: Chrome, platformName: ANDROID}
+Session ID: 7f7e75e0-f5ac-466a-8c84-33df79599a7c
+	at testCases.TC_001_SFI_All_Mobile.TestMobileIndividualControls(TC_001_SFI_All_Mobile.java:757)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

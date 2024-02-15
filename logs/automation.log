@@ -1,275 +1,179 @@
-16:00:48.172 [main] INFO  testCases.TC_001_SFI_All_Mobile - Picture Message Seleted:PictureMessage
-16:00:51.285 [main] INFO  testCases.TC_001_SFI_All_Mobile - Picture Message Next Clicked
-16:00:56.187 [main] INFO  testCases.TC_001_SFI_All_Mobile - YesorNo Control Present
-16:00:56.299 [main] INFO  utilities.Android.SurveyFormReUsables - Yes or No Control Title Passed : Actual Value is: Select Yes or No..?Expected Value is: Select Yes or No..?
-16:00:57.312 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of YesorNo Control Title Select Yes or No..? 
-16:00:59.263 [main] INFO  testCases.TC_001_SFI_All_Mobile - Yes Clicked
-16:00:59.897 [main] INFO  testCases.TC_001_SFI_All_Mobile - YesorNo Next Clicked
-16:01:04.673 [main] INFO  testCases.TC_001_SFI_All_Mobile - Agreement Question Conrol Present
-16:01:04.742 [main] INFO  utilities.Android.SurveyFormReUsables - Agreement Control Title Passed : Actual Value is: Terms and Conditions..!Expected Value is: Terms and Conditions..!
-16:01:05.754 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Agreement Control Title Terms and Conditions..! 
-16:01:05.888 [main] INFO  utilities.Android.SurveyFormReUsables - Agreement Text Passed : Actual Value is: I agree to the terms and conditionsExpected Value is: I agree to the terms and conditions
-16:01:06.889 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Agreement TextI agree to the terms and conditions
-16:01:09.570 [main] INFO  testCases.TC_001_SFI_All_Mobile - Agreement Next Clicked
-16:01:13.070 [main] INFO  testCases.TC_001_SFI_All_Mobile - RankMatrix control present
-16:01:14.580 [main] INFO  utilities.Android.SurveyFormReUsables - Ranking Matrix Title Passed : Actual Value is: Choose the value..!Expected Value is: Choose the value..!
-16:01:15.594 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Rank Matrix Control Title Choose the value..! 
-16:01:17.793 [main] INFO  testCases.TC_001_SFI_All_Mobile - Ranking Matrix Values Selected
-16:01:19.755 [main] INFO  testCases.TC_001_SFI_All_Mobile - Ranking Matrix Next Clicked
-16:01:25.651 [main] INFO  testCases.TC_001_SFI_All_Mobile - Google Map Control Present
-16:01:35.153 [main] INFO  pageObjects.Android.IndvControls - Allow Location Popup displayed
-16:01:40.493 [main] INFO  utilities.Android.SurveyFormReUsables - Google Map Title Passed : Actual Value is: What is your address?Expected Value is: What is your address?
-16:01:41.508 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Google Map Control Title What is your address? 
-16:01:47.430 [main] INFO  testCases.TC_001_SFI_All_Mobile - Address Entered in Google Map
-16:01:51.002 [main] INFO  testCases.TC_001_SFI_All_Mobile - Google Map Next Clicked
-16:01:51.855 [main] INFO  testCases.TC_001_SFI_All_Mobile - VR control present
-16:01:54.319 [main] INFO  utilities.Android.SurveyFormReUsables - Voice Record Title Passed : Actual Value is: Tap the mic and record the voiceExpected Value is: Tap the mic and record the voice
-16:01:55.322 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Voice Record Control Title Tap the mic and record the voice 
-16:01:59.519 [main] INFO  pageObjects.Android.IndvControls - Allow Location Popup displayed
-16:02:09.479 [main] INFO  testCases.TC_001_SFI_All_Mobile - Voice Recorded
-16:02:10.850 [main] INFO  testCases.TC_001_SFI_All_Mobile - Voice Record Prefix updated to Datasheet
-16:02:13.526 [main] INFO  testCases.TC_001_SFI_All_Mobile - Voice Record Next Clicked
-16:02:17.219 [main] INFO  utilities.Android.SurveyFormReUsables - File Upload Control Title Passed : Actual Value is: Upload fileExpected Value is: Upload file
-16:02:18.233 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of File Upload Control Title
-16:02:18.234 [main] INFO  pageObjects.Android.IndvControls - Within SelectFiletoUpload
-16:02:18.652 [main] INFO  pageObjects.Android.IndvControls - File Upload Visible
-16:02:22.109 [main] INFO  pageObjects.Android.IndvControls - FileUpload Clicked
-16:02:26.420 [main] INFO  pageObjects.Android.IndvControls - Switched to Native app within FileUpload
-16:02:29.531 [main] INFO  pageObjects.Android.IndvControls - Allow Permission displayed first time
-16:13:24.270 [main] INFO  testCases.TC_001_SFI_All_Mobile - ******starting TC_001_SFI_All_Mobile ****
-16:13:24.868 [main] INFO  testCases.TC_001_SFI_All_Mobile - Test Execution on Browser: chrome
-16:13:24.871 [main] INFO  testCases.TC_001_SFI_All_Mobile - Excel file Utility instance created
-16:13:26.364 [main] INFO  testCases.TC_001_SFI_All_Mobile - Row Count is: 1
-16:13:26.618 [main] INFO  testCases.TC_001_SFI_All_Mobile - Col Count is: 49
-16:13:26.618 [main] INFO  testCases.TC_001_SFI_All_Mobile - Extracting DataSheet Values started...
-16:13:29.544 [main] INFO  testCases.TC_001_SFI_All_Mobile - Extracting DataSheet Values Completed...
-16:13:32.277 [main] INFO  testCases.TC_001_SFI_All_Mobile - Survey Form Url Launched..
-16:13:33.714 [main] INFO  testCases.TC_001_SFI_All_Mobile - Build Url Pass
-16:13:34.595 [main] INFO  utilities.Android.SurveyFormReUsables - Message Title Passed : Actual Value is: Hi, Welcome to chat bot..!Expected Value is: Hi, Welcome to chat bot..!
-16:13:35.600 [main] INFO  testCases.TC_001_SFI_All_Mobile - Message Control Title Passed
-16:13:40.698 [main] INFO  testCases.TC_001_SFI_All_Mobile -  Select an option..! Actual Title 
-16:13:40.698 [main] INFO  utilities.Android.SurveyFormReUsables - MultiChoice Control Title Passed : Actual Value is: Select an option..!Expected Value is: Select an option..!
-16:13:45.838 [main] INFO  utilities.Android.UtilityCustomFunctions - [DisAgree] is selected in List
-16:13:45.839 [main] INFO  testCases.TC_001_SFI_All_Mobile - MultiChoice Item Selected
-16:13:49.777 [main] INFO  testCases.TC_001_SFI_All_Mobile - MultiChoice Next Clicked
-16:13:54.687 [main] INFO  testCases.TC_001_SFI_All_Mobile - Text Question Conrol Present
-16:13:54.826 [main] INFO  utilities.Android.SurveyFormReUsables - TextQuestion Control Title Passed : Actual Value is: Please type an answer ..!Expected Value is: Please type an answer ..!
-16:13:55.830 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of TextQuestion Control Title
-16:13:57.553 [main] INFO  testCases.TC_001_SFI_All_Mobile - Text Entered in TextAnswer Control
-16:14:02.472 [main] INFO  testCases.TC_001_SFI_All_Mobile - Text Question Next Clicked
-16:14:06.979 [main] INFO  testCases.TC_001_SFI_All_Mobile - Email Control Present
-16:14:07.063 [main] INFO  utilities.Android.SurveyFormReUsables - Email Control Title Passed : Actual Value is: What is your email address?Expected Value is: What is your email address?
-16:14:08.073 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Email Control Title
-16:14:09.651 [main] INFO  testCases.TC_001_SFI_All_Mobile - Email Id Entered
-16:14:14.704 [main] INFO  testCases.TC_001_SFI_All_Mobile - Email Next Clicked
-16:14:18.447 [main] INFO  utilities.Android.SurveyFormReUsables - Phone Number Control Title Passed : Actual Value is: Please type your phone numberExpected Value is: Please type your phone number
-16:14:19.450 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of PhoneNumber Control Title
-16:14:21.810 [main] INFO  testCases.TC_001_SFI_All_Mobile - Phone Number Conrol Present
-16:14:24.440 [main] INFO  testCases.TC_001_SFI_All_Mobile - Phone Number Entered
-16:14:28.053 [main] INFO  testCases.TC_001_SFI_All_Mobile - PhoneNumber Next Clicked
-16:14:33.001 [main] INFO  testCases.TC_001_SFI_All_Mobile - Appointment Clicked
-16:15:14.515 [main] INFO  testCases.TC_001_SFI_All_Mobile - Appointment Updated to Datasheet
-16:15:14.515 [main] INFO  testCases.TC_001_SFI_All_Mobile - Appointment Time Captured in Expected Value
-16:15:19.266 [main] INFO  testCases.TC_001_SFI_All_Mobile - Appointment Next Button clicked
-16:15:22.849 [main] INFO  utilities.Android.SurveyFormReUsables - MultiSelect Control Title Passed : Actual Value is: Select your choices..!Expected Value is: Select your choices..!
-16:15:23.858 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of MultiSelect Control Title
-16:15:28.218 [main] INFO  testCases.TC_001_SFI_All_Mobile - MultiSelect Value Selected
-16:15:30.158 [main] INFO  testCases.TC_001_SFI_All_Mobile - MultiSelect Next Clicked
-16:15:33.067 [main] INFO  testCases.TC_001_SFI_All_Mobile - List Conrol Present
-16:15:33.184 [main] INFO  utilities.Android.SurveyFormReUsables - List Control Title Passed : Actual Value is: Type and select your answer..!Expected Value is: Type and select your answer..!
-16:15:34.193 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of List Control Control Title
-16:15:39.933 [main] INFO  utilities.Android.UtilityCustomFunctions - [Sample Option 2] is selected in List
-16:15:39.934 [main] INFO  testCases.TC_001_SFI_All_Mobile - List Item Selected Sample Option 2
-16:15:45.005 [main] INFO  testCases.TC_001_SFI_All_Mobile - List Next Clicked
-16:15:49.929 [main] INFO  testCases.TC_001_SFI_All_Mobile - Number Control Present
-16:15:51.373 [main] INFO  testCases.TC_001_SFI_All_Mobile - Number Selected 1234567890
-16:15:56.417 [main] INFO  testCases.TC_001_SFI_All_Mobile - Number Next Clicked
-16:16:01.259 [main] INFO  testCases.TC_001_SFI_All_Mobile - Range Conrol Present
-16:16:01.374 [main] INFO  utilities.Android.SurveyFormReUsables - Range Control Title Passed : Actual Value is: Select a rangeExpected Value is: Select a range
-16:16:02.379 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Range Control Control Title
-16:16:19.309 [main] INFO  testCases.TC_001_SFI_All_Mobile - Range Selected 50
-16:16:24.203 [main] INFO  testCases.TC_001_SFI_All_Mobile - Range Next Clicked
-16:16:27.675 [main] INFO  testCases.TC_001_SFI_All_Mobile - Rating control Present
-16:16:29.123 [main] INFO  utilities.Android.SurveyFormReUsables - Rating Control Title Passed : Actual Value is: How was your experience?Expected Value is: How was your experience?
-16:16:30.136 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Rating Control Control Title
-16:16:30.642 [main] INFO  testCases.TC_001_SFI_All_Mobile - Rating Value: TerribleClicked
-16:16:35.709 [main] INFO  testCases.TC_001_SFI_All_Mobile - Rating Next Clicked
-16:16:40.539 [main] INFO  testCases.TC_001_SFI_All_Mobile - Opinion Scale Conrol Present
-16:16:40.650 [main] INFO  utilities.Android.SurveyFormReUsables - Opinion Scale Control Title Passed : Actual Value is: Choose a number?Expected Value is: Choose a number?
-16:16:41.662 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Opinion Scale Control Title
-16:16:46.178 [main] INFO  utilities.Android.UtilityCustomFunctions - [9] is selected in List
-16:16:46.179 [main] INFO  testCases.TC_001_SFI_All_Mobile - Opinion Scale Control: 9Clicked
-16:16:51.254 [main] INFO  testCases.TC_001_SFI_All_Mobile - Opinion Scale Next Clicked
-16:16:56.204 [main] INFO  testCases.TC_001_SFI_All_Mobile - Date Conrol Present
-16:17:08.318 [main] INFO  testCases.TC_001_SFI_All_Mobile - Date Value Updated to DataSheet
-16:17:11.353 [main] INFO  testCases.TC_001_SFI_All_Mobile - Date Next Clicked
-16:17:16.233 [main] INFO  testCases.TC_001_SFI_All_Mobile - Links Conrol Present
-16:17:16.382 [main] INFO  utilities.Android.SurveyFormReUsables - Link Control Title Passed : Actual Value is: Please contact usExpected Value is: Please contact us
-16:17:17.389 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Link Control Title  Please contact us  
-16:17:17.390 [main] INFO  testCases.TC_001_SFI_All_Mobile - Multiple Links Clicked
-16:17:18.038 [main] INFO  testCases.TC_001_SFI_All_Mobile - Links Next Clicked
-16:17:23.078 [main] INFO  testCases.TC_001_SFI_All_Mobile - ThankYou control Present
-16:17:24.552 [main] INFO  utilities.Android.SurveyFormReUsables - ThankYou Control Title Passed : Actual Value is: Nice chatting with youExpected Value is: Nice chatting with you
-16:17:25.568 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of ThankYou Control TitleNice chatting with you
-16:17:26.189 [main] INFO  testCases.TC_001_SFI_All_Mobile - ThankYou Next Clicked
-16:17:30.690 [main] INFO  testCases.TC_001_SFI_All_Mobile - Picture Message Control Present
-16:17:31.854 [main] INFO  utilities.Android.SurveyFormReUsables - Picture Message Control Title Passed : Actual Value is: Select the picture…!Expected Value is: Select the picture…!
-16:17:32.870 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Picture Message Control Title Select the picture…! 
-16:17:34.596 [main] INFO  testCases.TC_001_SFI_All_Mobile - Picture Message Seleted:PictureMessage
-16:17:37.701 [main] INFO  testCases.TC_001_SFI_All_Mobile - Picture Message Next Clicked
-16:17:42.577 [main] INFO  testCases.TC_001_SFI_All_Mobile - YesorNo Control Present
-16:17:42.681 [main] INFO  utilities.Android.SurveyFormReUsables - Yes or No Control Title Passed : Actual Value is: Select Yes or No..?Expected Value is: Select Yes or No..?
-16:17:43.687 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of YesorNo Control Title Select Yes or No..? 
-16:17:45.535 [main] INFO  testCases.TC_001_SFI_All_Mobile - Yes Clicked
-16:17:46.186 [main] INFO  testCases.TC_001_SFI_All_Mobile - YesorNo Next Clicked
-16:17:51.062 [main] INFO  testCases.TC_001_SFI_All_Mobile - Agreement Question Conrol Present
-16:17:51.177 [main] INFO  utilities.Android.SurveyFormReUsables - Agreement Control Title Passed : Actual Value is: Terms and Conditions..!Expected Value is: Terms and Conditions..!
-16:17:52.183 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Agreement Control Title Terms and Conditions..! 
-16:17:52.322 [main] INFO  utilities.Android.SurveyFormReUsables - Agreement Text Passed : Actual Value is: I agree to the terms and conditionsExpected Value is: I agree to the terms and conditions
-16:17:53.334 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Agreement TextI agree to the terms and conditions
-16:17:56.019 [main] INFO  testCases.TC_001_SFI_All_Mobile - Agreement Next Clicked
-16:17:59.578 [main] INFO  testCases.TC_001_SFI_All_Mobile - RankMatrix control present
-16:18:01.008 [main] INFO  utilities.Android.SurveyFormReUsables - Ranking Matrix Title Passed : Actual Value is: Choose the value..!Expected Value is: Choose the value..!
-16:18:02.011 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Rank Matrix Control Title Choose the value..! 
-16:18:04.346 [main] INFO  testCases.TC_001_SFI_All_Mobile - Ranking Matrix Values Selected
-16:18:06.342 [main] INFO  testCases.TC_001_SFI_All_Mobile - Ranking Matrix Next Clicked
-16:18:12.251 [main] INFO  testCases.TC_001_SFI_All_Mobile - Google Map Control Present
-16:18:21.849 [main] INFO  pageObjects.Android.IndvControls - Allow Location Popup displayed
-16:18:27.685 [main] INFO  utilities.Android.SurveyFormReUsables - Google Map Title Passed : Actual Value is: What is your address?Expected Value is: What is your address?
-16:18:28.692 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Google Map Control Title What is your address? 
-16:18:34.666 [main] INFO  testCases.TC_001_SFI_All_Mobile - Address Entered in Google Map
-16:18:38.246 [main] INFO  testCases.TC_001_SFI_All_Mobile - Google Map Next Clicked
-16:18:39.336 [main] INFO  testCases.TC_001_SFI_All_Mobile - VR control present
-16:18:41.825 [main] INFO  utilities.Android.SurveyFormReUsables - Voice Record Title Passed : Actual Value is: Tap the mic and record the voiceExpected Value is: Tap the mic and record the voice
-16:18:42.838 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Voice Record Control Title Tap the mic and record the voice 
-16:18:47.037 [main] INFO  pageObjects.Android.IndvControls - Allow Location Popup displayed
-16:18:57.349 [main] INFO  testCases.TC_001_SFI_All_Mobile - Voice Recorded
-16:18:58.714 [main] INFO  testCases.TC_001_SFI_All_Mobile - Voice Record Prefix updated to Datasheet
-16:19:01.357 [main] INFO  testCases.TC_001_SFI_All_Mobile - Voice Record Next Clicked
-16:19:05.013 [main] INFO  utilities.Android.SurveyFormReUsables - File Upload Control Title Passed : Actual Value is: Upload fileExpected Value is: Upload file
-16:19:06.023 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of File Upload Control Title
-16:19:06.023 [main] INFO  pageObjects.Android.IndvControls - Within SelectFiletoUpload
-16:19:06.406 [main] INFO  pageObjects.Android.IndvControls - File Upload Visible
-16:19:09.841 [main] INFO  pageObjects.Android.IndvControls - FileUpload Clicked
-16:19:14.177 [main] INFO  pageObjects.Android.IndvControls - Switched to Native app within FileUpload
-16:19:17.260 [main] INFO  pageObjects.Android.IndvControls - Allow Permission displayed first time
-16:19:43.588 [main] INFO  testCases.TC_001_SFI_All_Mobile - Upload file prefix added to Datasheet
-16:27:06.716 [main] INFO  testCases.TC_001_SFI_All_Mobile - ******starting TC_001_SFI_All_Mobile ****
-16:27:06.803 [main] INFO  testCases.TC_001_SFI_All_Mobile - Test Execution on Browser: chrome
-16:27:06.805 [main] INFO  testCases.TC_001_SFI_All_Mobile - Excel file Utility instance created
-16:27:07.337 [main] INFO  testCases.TC_001_SFI_All_Mobile - Row Count is: 1
-16:27:07.378 [main] INFO  testCases.TC_001_SFI_All_Mobile - Col Count is: 49
-16:27:07.378 [main] INFO  testCases.TC_001_SFI_All_Mobile - Extracting DataSheet Values started...
-16:27:08.291 [main] INFO  testCases.TC_001_SFI_All_Mobile - Extracting DataSheet Values Completed...
-16:27:10.104 [main] INFO  testCases.TC_001_SFI_All_Mobile - Survey Form Url Launched..
-16:27:11.501 [main] INFO  testCases.TC_001_SFI_All_Mobile - Build Url Pass
-16:27:12.322 [main] INFO  utilities.Android.SurveyFormReUsables - Message Title Passed : Actual Value is: Hi, Welcome to chat bot..!Expected Value is: Hi, Welcome to chat bot..!
-16:27:13.331 [main] INFO  testCases.TC_001_SFI_All_Mobile - Message Control Title Passed
-16:27:18.802 [main] INFO  testCases.TC_001_SFI_All_Mobile -  Select an option..! Actual Title 
-16:27:18.802 [main] INFO  utilities.Android.SurveyFormReUsables - MultiChoice Control Title Passed : Actual Value is: Select an option..!Expected Value is: Select an option..!
-16:27:23.510 [main] INFO  utilities.Android.UtilityCustomFunctions - [DisAgree] is selected in List
-16:27:23.510 [main] INFO  testCases.TC_001_SFI_All_Mobile - MultiChoice Item Selected
-16:27:27.650 [main] INFO  testCases.TC_001_SFI_All_Mobile - MultiChoice Next Clicked
-16:27:32.578 [main] INFO  testCases.TC_001_SFI_All_Mobile - Text Question Conrol Present
-16:27:32.715 [main] INFO  utilities.Android.SurveyFormReUsables - TextQuestion Control Title Passed : Actual Value is: Please type an answer ..!Expected Value is: Please type an answer ..!
-16:27:33.722 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of TextQuestion Control Title
-16:27:35.356 [main] INFO  testCases.TC_001_SFI_All_Mobile - Text Entered in TextAnswer Control
-16:27:40.329 [main] INFO  testCases.TC_001_SFI_All_Mobile - Text Question Next Clicked
-16:27:44.868 [main] INFO  testCases.TC_001_SFI_All_Mobile - Email Control Present
-16:27:45.000 [main] INFO  utilities.Android.SurveyFormReUsables - Email Control Title Passed : Actual Value is: What is your email address?Expected Value is: What is your email address?
-16:27:46.002 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Email Control Title
-16:27:47.546 [main] INFO  testCases.TC_001_SFI_All_Mobile - Email Id Entered
-16:27:52.646 [main] INFO  testCases.TC_001_SFI_All_Mobile - Email Next Clicked
-16:27:56.368 [main] INFO  utilities.Android.SurveyFormReUsables - Phone Number Control Title Passed : Actual Value is: Please type your phone numberExpected Value is: Please type your phone number
-16:27:57.378 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of PhoneNumber Control Title
-16:27:59.710 [main] INFO  testCases.TC_001_SFI_All_Mobile - Phone Number Conrol Present
-16:28:02.204 [main] INFO  testCases.TC_001_SFI_All_Mobile - Phone Number Entered
-16:28:05.731 [main] INFO  testCases.TC_001_SFI_All_Mobile - PhoneNumber Next Clicked
-16:28:10.905 [main] INFO  testCases.TC_001_SFI_All_Mobile - Appointment Clicked
-16:28:53.253 [main] INFO  testCases.TC_001_SFI_All_Mobile - Appointment Updated to Datasheet
-16:28:53.253 [main] INFO  testCases.TC_001_SFI_All_Mobile - Appointment Time Captured in Expected Value
-16:28:56.283 [main] INFO  testCases.TC_001_SFI_All_Mobile - Appointment Next Button clicked
-16:28:59.993 [main] INFO  utilities.Android.SurveyFormReUsables - MultiSelect Control Title Passed : Actual Value is: Select your choices..!Expected Value is: Select your choices..!
-16:29:01.008 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of MultiSelect Control Title
-16:29:05.797 [main] INFO  testCases.TC_001_SFI_All_Mobile - MultiSelect Value Selected
-16:29:07.705 [main] INFO  testCases.TC_001_SFI_All_Mobile - MultiSelect Next Clicked
-16:29:10.552 [main] INFO  testCases.TC_001_SFI_All_Mobile - List Conrol Present
-16:29:10.670 [main] INFO  utilities.Android.SurveyFormReUsables - List Control Title Passed : Actual Value is: Type and select your answer..!Expected Value is: Type and select your answer..!
-16:29:11.679 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of List Control Control Title
-16:29:17.495 [main] INFO  utilities.Android.UtilityCustomFunctions - [Sample Option 2] is selected in List
-16:29:17.496 [main] INFO  testCases.TC_001_SFI_All_Mobile - List Item Selected Sample Option 2
-16:29:22.533 [main] INFO  testCases.TC_001_SFI_All_Mobile - List Next Clicked
-16:29:27.435 [main] INFO  testCases.TC_001_SFI_All_Mobile - Number Control Present
-16:29:28.891 [main] INFO  testCases.TC_001_SFI_All_Mobile - Number Selected 1234567890
-16:29:33.921 [main] INFO  testCases.TC_001_SFI_All_Mobile - Number Next Clicked
-16:29:38.833 [main] INFO  testCases.TC_001_SFI_All_Mobile - Range Conrol Present
-16:29:38.953 [main] INFO  utilities.Android.SurveyFormReUsables - Range Control Title Passed : Actual Value is: Select a rangeExpected Value is: Select a range
-16:29:39.961 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Range Control Control Title
-16:30:02.855 [main] INFO  testCases.TC_001_SFI_All_Mobile - Range Selected 50
-16:30:07.939 [main] INFO  testCases.TC_001_SFI_All_Mobile - Range Next Clicked
-16:30:11.489 [main] INFO  testCases.TC_001_SFI_All_Mobile - Rating control Present
-16:30:12.910 [main] INFO  utilities.Android.SurveyFormReUsables - Rating Control Title Passed : Actual Value is: How was your experience?Expected Value is: How was your experience?
-16:30:13.923 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Rating Control Control Title
-16:30:14.541 [main] INFO  testCases.TC_001_SFI_All_Mobile - Rating Value: TerribleClicked
-16:30:19.635 [main] INFO  testCases.TC_001_SFI_All_Mobile - Rating Next Clicked
-16:30:24.555 [main] INFO  testCases.TC_001_SFI_All_Mobile - Opinion Scale Conrol Present
-16:30:24.670 [main] INFO  utilities.Android.SurveyFormReUsables - Opinion Scale Control Title Passed : Actual Value is: Choose a number?Expected Value is: Choose a number?
-16:30:25.681 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Opinion Scale Control Title
-16:30:30.328 [main] INFO  utilities.Android.UtilityCustomFunctions - [9] is selected in List
-16:30:30.328 [main] INFO  testCases.TC_001_SFI_All_Mobile - Opinion Scale Control: 9Clicked
-16:30:35.425 [main] INFO  testCases.TC_001_SFI_All_Mobile - Opinion Scale Next Clicked
-16:30:40.344 [main] INFO  testCases.TC_001_SFI_All_Mobile - Date Conrol Present
-16:30:53.134 [main] INFO  testCases.TC_001_SFI_All_Mobile - Date Value Updated to DataSheet
-16:30:56.190 [main] INFO  testCases.TC_001_SFI_All_Mobile - Date Next Clicked
-16:31:01.117 [main] INFO  testCases.TC_001_SFI_All_Mobile - Links Conrol Present
-16:31:01.212 [main] INFO  utilities.Android.SurveyFormReUsables - Link Control Title Passed : Actual Value is: Please contact usExpected Value is: Please contact us
-16:31:02.220 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Link Control Title  Please contact us  
-16:31:02.220 [main] INFO  testCases.TC_001_SFI_All_Mobile - Multiple Links Clicked
-16:31:02.903 [main] INFO  testCases.TC_001_SFI_All_Mobile - Links Next Clicked
-16:31:07.940 [main] INFO  testCases.TC_001_SFI_All_Mobile - ThankYou control Present
-16:31:09.447 [main] INFO  utilities.Android.SurveyFormReUsables - ThankYou Control Title Passed : Actual Value is: Nice chatting with youExpected Value is: Nice chatting with you
-16:31:10.460 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of ThankYou Control TitleNice chatting with you
-16:31:11.131 [main] INFO  testCases.TC_001_SFI_All_Mobile - ThankYou Next Clicked
-16:31:15.643 [main] INFO  testCases.TC_001_SFI_All_Mobile - Picture Message Control Present
-16:31:16.773 [main] INFO  utilities.Android.SurveyFormReUsables - Picture Message Control Title Passed : Actual Value is: Select the picture…!Expected Value is: Select the picture…!
-16:31:17.785 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Picture Message Control Title Select the picture…! 
-16:31:19.582 [main] INFO  testCases.TC_001_SFI_All_Mobile - Picture Message Seleted:PictureMessage
-16:31:22.754 [main] INFO  testCases.TC_001_SFI_All_Mobile - Picture Message Next Clicked
-16:31:27.629 [main] INFO  testCases.TC_001_SFI_All_Mobile - YesorNo Control Present
-16:31:27.698 [main] INFO  utilities.Android.SurveyFormReUsables - Yes or No Control Title Passed : Actual Value is: Select Yes or No..?Expected Value is: Select Yes or No..?
-16:31:28.706 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of YesorNo Control Title Select Yes or No..? 
-16:31:30.336 [main] INFO  testCases.TC_001_SFI_All_Mobile - Yes Clicked
-16:31:31.035 [main] INFO  testCases.TC_001_SFI_All_Mobile - YesorNo Next Clicked
-16:31:35.944 [main] INFO  testCases.TC_001_SFI_All_Mobile - Agreement Question Conrol Present
-16:31:36.056 [main] INFO  utilities.Android.SurveyFormReUsables - Agreement Control Title Passed : Actual Value is: Terms and Conditions..!Expected Value is: Terms and Conditions..!
-16:31:37.058 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Agreement Control Title Terms and Conditions..! 
-16:31:37.215 [main] INFO  utilities.Android.SurveyFormReUsables - Agreement Text Passed : Actual Value is: I agree to the terms and conditionsExpected Value is: I agree to the terms and conditions
-16:31:38.220 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Agreement TextI agree to the terms and conditions
-16:31:40.882 [main] INFO  testCases.TC_001_SFI_All_Mobile - Agreement Next Clicked
-16:31:44.460 [main] INFO  testCases.TC_001_SFI_All_Mobile - RankMatrix control present
-16:31:45.905 [main] INFO  utilities.Android.SurveyFormReUsables - Ranking Matrix Title Passed : Actual Value is: Choose the value..!Expected Value is: Choose the value..!
-16:31:46.915 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Rank Matrix Control Title Choose the value..! 
-16:31:49.256 [main] INFO  testCases.TC_001_SFI_All_Mobile - Ranking Matrix Values Selected
-16:31:51.287 [main] INFO  testCases.TC_001_SFI_All_Mobile - Ranking Matrix Next Clicked
-16:31:57.154 [main] INFO  testCases.TC_001_SFI_All_Mobile - Google Map Control Present
-16:32:06.749 [main] INFO  pageObjects.Android.IndvControls - Allow Location Popup displayed
-16:32:13.167 [main] INFO  utilities.Android.SurveyFormReUsables - Google Map Title Passed : Actual Value is: What is your address?Expected Value is: What is your address?
-16:32:14.173 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Google Map Control Title What is your address? 
-16:32:20.297 [main] INFO  testCases.TC_001_SFI_All_Mobile - Address Entered in Google Map
-16:32:23.959 [main] INFO  testCases.TC_001_SFI_All_Mobile - Google Map Next Clicked
-16:32:25.192 [main] INFO  testCases.TC_001_SFI_All_Mobile - VR control present
-16:32:27.703 [main] INFO  utilities.Android.SurveyFormReUsables - Voice Record Title Passed : Actual Value is: Tap the mic and record the voiceExpected Value is: Tap the mic and record the voice
-16:32:28.715 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Voice Record Control Title Tap the mic and record the voice 
-16:32:32.846 [main] INFO  pageObjects.Android.IndvControls - Allow Location Popup displayed
-16:32:42.964 [main] INFO  testCases.TC_001_SFI_All_Mobile - Voice Recorded
-16:32:44.367 [main] INFO  testCases.TC_001_SFI_All_Mobile - Voice Record Prefix updated to Datasheet
-16:32:47.065 [main] INFO  testCases.TC_001_SFI_All_Mobile - Voice Record Next Clicked
-16:32:50.755 [main] INFO  utilities.Android.SurveyFormReUsables - File Upload Control Title Passed : Actual Value is: Upload fileExpected Value is: Upload file
-16:32:51.758 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of File Upload Control Title
-16:32:51.759 [main] INFO  pageObjects.Android.IndvControls - Within SelectFiletoUpload
-16:32:52.169 [main] INFO  pageObjects.Android.IndvControls - File Upload Visible
-16:32:55.626 [main] INFO  pageObjects.Android.IndvControls - FileUpload Clicked
-16:32:59.979 [main] INFO  pageObjects.Android.IndvControls - Switched to Native app within FileUpload
-16:33:03.095 [main] INFO  pageObjects.Android.IndvControls - Allow Permission displayed first time
-16:33:29.081 [main] INFO  testCases.TC_001_SFI_All_Mobile - Upload file prefix added to Datasheet
-16:33:32.549 [main] INFO  testCases.TC_001_SFI_All_Mobile - FileUpload Next Clicked & form submitted
+13:06:53.139 [main] INFO  testCases.TC_001_SFI_All_Mobile - ******starting TC_001_SFI_All_Mobile ****
+13:06:53.218 [main] INFO  testCases.TC_001_SFI_All_Mobile - Test Execution on Browser: chrome
+13:06:53.219 [main] INFO  testCases.TC_001_SFI_All_Mobile - Excel file Utility instance created
+13:06:53.813 [main] INFO  testCases.TC_001_SFI_All_Mobile - Row Count is: 1
+13:06:53.859 [main] INFO  testCases.TC_001_SFI_All_Mobile - Col Count is: 49
+13:06:53.860 [main] INFO  testCases.TC_001_SFI_All_Mobile - Extracting DataSheet Values started...
+13:06:54.880 [main] INFO  testCases.TC_001_SFI_All_Mobile - Extracting DataSheet Values Completed...
+13:06:54.884 [main] INFO  testCases.TC_001_SFI_All_Mobile - Navigation started
+13:06:58.354 [main] INFO  testCases.TC_001_SFI_All_Mobile - Login details Entered
+13:06:58.593 [main] INFO  testCases.TC_001_SFI_All_Mobile - Chat bot Logged In
+13:07:19.549 [main] INFO  testCases.TC_001_SFI_All_MobileResponse - ******starting TC_001_SFI_All_MobileResponse ****
+13:07:19.551 [main] INFO  testCases.TC_001_SFI_All_MobileResponse - Test Execution on Browser: chrome
+13:07:19.551 [main] INFO  testCases.TC_001_SFI_All_MobileResponse - Excel file Utility instance created
+13:07:19.590 [main] INFO  testCases.TC_001_SFI_All_MobileResponse - Row Count is: 1
+13:07:19.604 [main] INFO  testCases.TC_001_SFI_All_MobileResponse - Col Count is: 49
+13:07:19.604 [main] INFO  testCases.TC_001_SFI_All_MobileResponse - Extracting DataSheet Values started...
+13:07:20.190 [main] INFO  testCases.TC_001_SFI_All_MobileResponse - Extracting DataSheet Values Completed...
+13:08:58.504 [main] INFO  testCases.TC_001_SFI_All_Mobile - ******starting TC_001_SFI_All_Mobile ****
+13:08:58.606 [main] INFO  testCases.TC_001_SFI_All_Mobile - Test Execution on Browser: chrome
+13:08:58.610 [main] INFO  testCases.TC_001_SFI_All_Mobile - Excel file Utility instance created
+13:08:59.288 [main] INFO  testCases.TC_001_SFI_All_Mobile - Row Count is: 1
+13:08:59.385 [main] INFO  testCases.TC_001_SFI_All_Mobile - Col Count is: 49
+13:08:59.385 [main] INFO  testCases.TC_001_SFI_All_Mobile - Extracting DataSheet Values started...
+13:09:00.743 [main] INFO  testCases.TC_001_SFI_All_Mobile - Extracting DataSheet Values Completed...
+13:09:02.474 [main] INFO  testCases.TC_001_SFI_All_Mobile - Survey Form Url Launched..
+13:09:03.885 [main] INFO  testCases.TC_001_SFI_All_Mobile - Build Url Pass
+13:09:04.650 [main] INFO  utilities.Android.SurveyFormReUsables - Message Title Passed : Actual Value is: Hi, Welcome to chat bot..!Expected Value is: Hi, Welcome to chat bot..!
+13:09:05.657 [main] INFO  testCases.TC_001_SFI_All_Mobile - Message Control Title Passed
+13:09:11.046 [main] INFO  testCases.TC_001_SFI_All_Mobile -  Select an option..! Actual Title 
+13:09:11.046 [main] INFO  utilities.Android.SurveyFormReUsables - MultiChoice Control Title Passed : Actual Value is: Select an option..!Expected Value is: Select an option..!
+13:09:16.188 [main] INFO  utilities.Android.UtilityCustomFunctions - [DisAgree] is selected in List
+13:09:16.188 [main] INFO  testCases.TC_001_SFI_All_Mobile - MultiChoice Item Selected
+13:09:20.339 [main] INFO  testCases.TC_001_SFI_All_Mobile - MultiChoice Next Clicked
+13:10:55.450 [main] INFO  testCases.TC_001_SFI_All_Mobile - Text Question Conrol Missing
+13:10:56.508 [main] INFO  testCases.TC_001_SFI_All_MobileResponse - ******starting TC_001_SFI_All_MobileResponse ****
+13:10:56.509 [main] INFO  testCases.TC_001_SFI_All_MobileResponse - Test Execution on Browser: chrome
+13:10:56.509 [main] INFO  testCases.TC_001_SFI_All_MobileResponse - Excel file Utility instance created
+13:10:56.527 [main] INFO  testCases.TC_001_SFI_All_MobileResponse - Row Count is: 1
+13:10:56.547 [main] INFO  testCases.TC_001_SFI_All_MobileResponse - Col Count is: 49
+13:10:56.547 [main] INFO  testCases.TC_001_SFI_All_MobileResponse - Extracting DataSheet Values started...
+13:10:57.175 [main] INFO  testCases.TC_001_SFI_All_MobileResponse - Extracting DataSheet Values Completed...
+13:11:02.176 [main] INFO  testCases.TC_001_SFI_All_MobileResponse - Navigation started
+13:11:05.104 [main] INFO  testCases.TC_001_SFI_All_MobileResponse - Login details Entered
+13:11:05.157 [main] INFO  testCases.TC_001_SFI_All_MobileResponse - Chat bot Logged In
+13:11:08.011 [main] INFO  testCases.TC_001_SFI_All_MobileResponse - SFAllMobile_Independent Build Name entered in List Box
+13:11:14.101 [main] INFO  testCases.TC_001_SFI_All_MobileResponse - Build link clicked side bar
+13:11:14.101 [main] INFO  testCases.TC_001_SFI_All_MobileResponse - clicked side bar Result
+13:11:15.215 [main] INFO  testCases.TC_001_SFI_All_MobileResponse - Side Item Response clicked
+13:11:15.281 [main] INFO  testCases.TC_001_SFI_All_MobileResponse - clicked refresh Response
+13:11:15.332 [main] INFO  testCases.TC_001_SFI_All_MobileResponse - clicked refresh Response Again
+13:11:18.390 [main] INFO  testCases.TC_001_SFI_All_MobileResponse - Clicked first Response
+13:11:18.390 [main] INFO  testCases.TC_001_SFI_All_MobileResponse - Navigated to Build: SFAllMobile_Independent
+13:11:19.905 [main] INFO  utilities.Browser.SurveyFormReUsables - Message Control Header Expected Value:Hi, Welcome to chat bot..! Actual Value: Hi, Welcome to chat bot..!
+13:11:19.905 [main] INFO  utilities.Browser.SurveyFormReUsables - Message Control Header Passed : Actual Value is: Hi, Welcome to chat bot..!Expected Value is: Hi, Welcome to chat bot..!
+13:11:22.117 [main] INFO  utilities.Browser.SurveyFormReUsables - MultiChoice Control Question Expected Value:Select an option..! Actual Value: Select an option..!
+13:11:22.117 [main] INFO  utilities.Browser.SurveyFormReUsables - MultiChoice Control Question Passed : Actual Value is: Select an option..!Expected Value is: Select an option..!
+13:11:23.362 [main] INFO  utilities.Browser.SurveyFormReUsables - MultiChoice Control Answer Expected Value:DisAgree Actual Value: DisAgree
+13:11:23.363 [main] INFO  utilities.Browser.SurveyFormReUsables - MultiChoice Control Answer Passed : Actual Value is: DisAgreeExpected Value is: DisAgree
+13:11:25.620 [main] INFO  utilities.Browser.SurveyFormReUsables - Text Question Control Question Expected Value:Please type an answer ..! Actual Value: Please type an answer ..!
+13:11:25.620 [main] INFO  utilities.Browser.SurveyFormReUsables - Text Question Control Question Passed : Actual Value is: Please type an answer ..!Expected Value is: Please type an answer ..!
+13:15:27.764 [main] INFO  testCases.TC_001_SFI_All_Mobile - ******starting TC_001_SFI_All_Mobile ****
+13:15:27.844 [main] INFO  testCases.TC_001_SFI_All_Mobile - Test Execution on Browser: chrome
+13:15:27.846 [main] INFO  testCases.TC_001_SFI_All_Mobile - Excel file Utility instance created
+13:15:28.487 [main] INFO  testCases.TC_001_SFI_All_Mobile - Row Count is: 1
+13:15:28.533 [main] INFO  testCases.TC_001_SFI_All_Mobile - Col Count is: 49
+13:15:28.534 [main] INFO  testCases.TC_001_SFI_All_Mobile - Extracting DataSheet Values started...
+13:15:29.473 [main] INFO  testCases.TC_001_SFI_All_Mobile - Extracting DataSheet Values Completed...
+13:15:31.122 [main] INFO  testCases.TC_001_SFI_All_Mobile - Survey Form Url Launched..
+13:15:32.532 [main] INFO  testCases.TC_001_SFI_All_Mobile - Build Url Pass
+13:15:33.310 [main] INFO  utilities.Android.SurveyFormReUsables - Message Title Passed : Actual Value is: Hi, Welcome to chat bot..!Expected Value is: Hi, Welcome to chat bot..!
+13:15:34.318 [main] INFO  testCases.TC_001_SFI_All_Mobile - Message Control Title Passed
+13:15:39.675 [main] INFO  testCases.TC_001_SFI_All_Mobile -  Select an option..! Actual Title 
+13:15:39.675 [main] INFO  utilities.Android.SurveyFormReUsables - MultiChoice Control Title Passed : Actual Value is: Select an option..!Expected Value is: Select an option..!
+13:15:44.596 [main] INFO  utilities.Android.UtilityCustomFunctions - [DisAgree] is selected in List
+13:15:44.596 [main] INFO  testCases.TC_001_SFI_All_Mobile - MultiChoice Item Selected
+13:15:48.696 [main] INFO  testCases.TC_001_SFI_All_Mobile - MultiChoice Next Clicked
+13:15:53.349 [main] INFO  testCases.TC_001_SFI_All_Mobile - Text Question Conrol Present
+13:15:53.490 [main] INFO  utilities.Android.SurveyFormReUsables - TextQuestion Control Title Passed : Actual Value is: Please type an answer ..!Expected Value is: Please type an answer ..!
+13:15:54.503 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of TextQuestion Control Title
+13:15:56.150 [main] INFO  testCases.TC_001_SFI_All_Mobile - Text Entered in TextAnswer Control
+13:16:01.200 [main] INFO  testCases.TC_001_SFI_All_Mobile - Text Question Next Clicked
+13:16:05.647 [main] INFO  testCases.TC_001_SFI_All_Mobile - Email Control Present
+13:16:05.711 [main] INFO  utilities.Android.SurveyFormReUsables - Email Control Title Passed : Actual Value is: What is your email address?Expected Value is: What is your email address?
+13:16:06.722 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Email Control Title
+13:16:08.137 [main] INFO  testCases.TC_001_SFI_All_Mobile - Email Id Entered
+13:16:13.188 [main] INFO  testCases.TC_001_SFI_All_Mobile - Email Next Clicked
+13:16:16.907 [main] INFO  utilities.Android.SurveyFormReUsables - Phone Number Control Title Passed : Actual Value is: Please type your phone numberExpected Value is: Please type your phone number
+13:16:17.910 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of PhoneNumber Control Title
+13:16:20.238 [main] INFO  testCases.TC_001_SFI_All_Mobile - Phone Number Conrol Present
+13:16:22.510 [main] INFO  testCases.TC_001_SFI_All_Mobile - Phone Number Entered
+13:16:26.195 [main] INFO  testCases.TC_001_SFI_All_Mobile - PhoneNumber Next Clicked
+13:16:31.473 [main] INFO  testCases.TC_001_SFI_All_Mobile - Appointment Clicked
+13:17:18.732 [main] INFO  testCases.TC_001_SFI_All_Mobile - Appointment Updated to Datasheet
+13:17:18.732 [main] INFO  testCases.TC_001_SFI_All_Mobile - Appointment Time Captured in Expected Value
+13:17:21.774 [main] INFO  testCases.TC_001_SFI_All_Mobile - Appointment Next Button clicked
+13:17:25.469 [main] INFO  utilities.Android.SurveyFormReUsables - MultiSelect Control Title Passed : Actual Value is: Select your choices..!Expected Value is: Select your choices..!
+13:17:26.481 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of MultiSelect Control Title
+13:17:31.194 [main] INFO  testCases.TC_001_SFI_All_Mobile - MultiSelect Value Selected
+13:17:33.197 [main] INFO  testCases.TC_001_SFI_All_Mobile - MultiSelect Next Clicked
+13:17:36.087 [main] INFO  testCases.TC_001_SFI_All_Mobile - List Conrol Present
+13:17:36.210 [main] INFO  utilities.Android.SurveyFormReUsables - List Control Title Passed : Actual Value is: Type and select your answer..!Expected Value is: Type and select your answer..!
+13:17:37.211 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of List Control Control Title
+13:17:42.937 [main] INFO  utilities.Android.UtilityCustomFunctions - [Sample Option 2] is selected in List
+13:17:42.938 [main] INFO  testCases.TC_001_SFI_All_Mobile - List Item Selected Sample Option 2
+13:17:47.945 [main] INFO  testCases.TC_001_SFI_All_Mobile - List Next Clicked
+13:17:52.837 [main] INFO  testCases.TC_001_SFI_All_Mobile - Number Control Present
+13:17:54.393 [main] INFO  testCases.TC_001_SFI_All_Mobile - Number Selected 1234567890
+13:17:59.465 [main] INFO  testCases.TC_001_SFI_All_Mobile - Number Next Clicked
+13:18:04.349 [main] INFO  testCases.TC_001_SFI_All_Mobile - Range Conrol Present
+13:18:04.461 [main] INFO  utilities.Android.SurveyFormReUsables - Range Control Title Passed : Actual Value is: Select a rangeExpected Value is: Select a range
+13:18:05.476 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Range Control Control Title
+13:18:27.770 [main] INFO  testCases.TC_001_SFI_All_Mobile - Range Selected 50
+13:18:32.807 [main] INFO  testCases.TC_001_SFI_All_Mobile - Range Next Clicked
+13:18:36.350 [main] INFO  testCases.TC_001_SFI_All_Mobile - Rating control Present
+13:18:37.857 [main] INFO  utilities.Android.SurveyFormReUsables - Rating Control Title Passed : Actual Value is: How was your experience?Expected Value is: How was your experience?
+13:18:38.870 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Rating Control Control Title
+13:18:39.492 [main] INFO  testCases.TC_001_SFI_All_Mobile - Rating Value: TerribleClicked
+13:18:44.551 [main] INFO  testCases.TC_001_SFI_All_Mobile - Rating Next Clicked
+13:18:49.485 [main] INFO  testCases.TC_001_SFI_All_Mobile - Opinion Scale Conrol Present
+13:18:49.596 [main] INFO  utilities.Android.SurveyFormReUsables - Opinion Scale Control Title Passed : Actual Value is: Choose a number?Expected Value is: Choose a number?
+13:18:50.600 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Opinion Scale Control Title
+13:18:55.169 [main] INFO  utilities.Android.UtilityCustomFunctions - [9] is selected in List
+13:18:55.170 [main] INFO  testCases.TC_001_SFI_All_Mobile - Opinion Scale Control: 9Clicked
+13:19:00.175 [main] INFO  testCases.TC_001_SFI_All_Mobile - Opinion Scale Next Clicked
+13:19:05.065 [main] INFO  testCases.TC_001_SFI_All_Mobile - Date Conrol Present
+13:19:20.111 [main] INFO  testCases.TC_001_SFI_All_Mobile - Date Value Updated to DataSheet
+13:19:23.225 [main] INFO  testCases.TC_001_SFI_All_Mobile - Date Next Clicked
+13:19:28.062 [main] INFO  testCases.TC_001_SFI_All_Mobile - Links Conrol Present
+13:19:28.197 [main] INFO  utilities.Android.SurveyFormReUsables - Link Control Title Passed : Actual Value is: Please contact usExpected Value is: Please contact us
+13:19:29.203 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Link Control Title  Please contact us  
+13:19:29.203 [main] INFO  testCases.TC_001_SFI_All_Mobile - Multiple Links Clicked
+13:19:29.906 [main] INFO  testCases.TC_001_SFI_All_Mobile - Links Next Clicked
+13:19:34.967 [main] INFO  testCases.TC_001_SFI_All_Mobile - ThankYou control Present
+13:19:36.455 [main] INFO  utilities.Android.SurveyFormReUsables - ThankYou Control Title Passed : Actual Value is: Nice chatting with youExpected Value is: Nice chatting with you
+13:19:37.462 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of ThankYou Control TitleNice chatting with you
+13:19:38.152 [main] INFO  testCases.TC_001_SFI_All_Mobile - ThankYou Next Clicked
+13:19:42.654 [main] INFO  testCases.TC_001_SFI_All_Mobile - Picture Message Control Present
+13:19:43.817 [main] INFO  utilities.Android.SurveyFormReUsables - Picture Message Control Title Passed : Actual Value is: Select the picture…!Expected Value is: Select the picture…!
+13:19:44.833 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Picture Message Control Title Select the picture…! 
+13:19:46.577 [main] INFO  testCases.TC_001_SFI_All_Mobile - Picture Message Seleted:PictureMessage
+13:19:49.691 [main] INFO  testCases.TC_001_SFI_All_Mobile - Picture Message Next Clicked
+13:19:54.562 [main] INFO  testCases.TC_001_SFI_All_Mobile - YesorNo Control Present
+13:19:54.668 [main] INFO  utilities.Android.SurveyFormReUsables - Yes or No Control Title Passed : Actual Value is: Select Yes or No..?Expected Value is: Select Yes or No..?
+13:19:55.676 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of YesorNo Control Title Select Yes or No..? 
+13:19:57.617 [main] INFO  testCases.TC_001_SFI_All_Mobile - Yes Clicked
+13:19:58.266 [main] INFO  testCases.TC_001_SFI_All_Mobile - YesorNo Next Clicked
+13:20:03.168 [main] INFO  testCases.TC_001_SFI_All_Mobile - Agreement Question Conrol Present
+13:20:03.286 [main] INFO  utilities.Android.SurveyFormReUsables - Agreement Control Title Passed : Actual Value is: Terms and Conditions..!Expected Value is: Terms and Conditions..!
+13:20:04.294 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Agreement Control Title Terms and Conditions..! 
+13:20:04.447 [main] INFO  utilities.Android.SurveyFormReUsables - Agreement Text Passed : Actual Value is: I agree to the terms and conditionsExpected Value is: I agree to the terms and conditions
+13:20:05.452 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Agreement TextI agree to the terms and conditions
+13:20:08.142 [main] INFO  testCases.TC_001_SFI_All_Mobile - Agreement Next Clicked
+13:20:11.678 [main] INFO  testCases.TC_001_SFI_All_Mobile - RankMatrix control present
+13:20:13.127 [main] INFO  utilities.Android.SurveyFormReUsables - Ranking Matrix Title Passed : Actual Value is: Choose the value..!Expected Value is: Choose the value..!
+13:20:14.130 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Rank Matrix Control Title Choose the value..! 
+13:20:16.454 [main] INFO  testCases.TC_001_SFI_All_Mobile - Ranking Matrix Values Selected
+13:20:18.374 [main] INFO  testCases.TC_001_SFI_All_Mobile - Ranking Matrix Next Clicked
+13:20:24.272 [main] INFO  testCases.TC_001_SFI_All_Mobile - Google Map Control Present
+13:20:33.845 [main] INFO  pageObjects.Android.IndvControls - Allow Location Popup displayed
+13:20:39.620 [main] INFO  utilities.Android.SurveyFormReUsables - Google Map Title Passed : Actual Value is: What is your address?Expected Value is: What is your address?
+13:20:40.629 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Google Map Control Title What is your address? 
+13:20:46.649 [main] INFO  testCases.TC_001_SFI_All_Mobile - Address Entered in Google Map
+13:20:50.291 [main] INFO  testCases.TC_001_SFI_All_Mobile - Google Map Next Clicked
+13:20:51.473 [main] INFO  testCases.TC_001_SFI_All_Mobile - VR control present
+13:20:53.932 [main] INFO  utilities.Android.SurveyFormReUsables - Voice Record Title Passed : Actual Value is: Tap the mic and record the voiceExpected Value is: Tap the mic and record the voice
+13:20:54.948 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of Voice Record Control Title Tap the mic and record the voice 
+13:20:59.277 [main] INFO  pageObjects.Android.IndvControls - Allow Location Popup displayed
+13:21:09.953 [main] INFO  testCases.TC_001_SFI_All_Mobile - Voice Recorded
+13:21:11.363 [main] INFO  testCases.TC_001_SFI_All_Mobile - Voice Record Prefix updated to Datasheet
+13:21:14.015 [main] INFO  testCases.TC_001_SFI_All_Mobile - Voice Record Next Clicked
+13:21:17.769 [main] INFO  utilities.Android.SurveyFormReUsables - File Upload Control Title Passed : Actual Value is: Upload fileExpected Value is: Upload file
+13:21:18.776 [main] INFO  testCases.TC_001_SFI_All_Mobile - Validation of File Upload Control Title
+13:21:18.776 [main] INFO  pageObjects.Android.IndvControls - Within SelectFiletoUpload
+13:21:19.217 [main] INFO  pageObjects.Android.IndvControls - File Upload Visible
+13:21:22.650 [main] INFO  pageObjects.Android.IndvControls - FileUpload Clicked
+13:21:26.953 [main] INFO  pageObjects.Android.IndvControls - Switched to Native app within FileUpload
+13:21:30.053 [main] INFO  pageObjects.Android.IndvControls - Allow Permission displayed first time
+13:21:56.362 [main] INFO  testCases.TC_001_SFI_All_Mobile - Upload file prefix added to Datasheet
+13:21:59.735 [main] INFO  testCases.TC_001_SFI_All_Mobile - FileUpload Next Clicked & form submitted

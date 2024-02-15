@@ -121,6 +121,7 @@ public class TC_001_SFI_All_Mobile extends BaseTest{
 			
 			logger.info("Extracting DataSheet Values Completed...");
 			System.out.println("Extracted datasheet values");
+			
 //			Launch Url
 			oSFR.fLaunchUrl(driver, sExpBuildUrl);
 			//URL Validation 
@@ -745,6 +746,10 @@ public class TC_001_SFI_All_Mobile extends BaseTest{
 				 logger.info("FileUpload Next Clicked & form submitted");
 				 
 				} 
+				Thread.sleep(5000);
+				
+				
+				
 			 
 	}	catch(Exception e) {
 		System.out.println(e.getCause());

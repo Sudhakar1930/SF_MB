@@ -330,6 +330,10 @@ public class IndvControls {
 	}
 	
 	
+	//click Methods
+	
+	
+	
 	
 	public void clickAndroidLinkAllowLocation() {
 		try {

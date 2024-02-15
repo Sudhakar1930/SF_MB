@@ -1,28 +1,40 @@
 package pageObjects.Android;
 
 import java.time.Duration;
+import java.util.Arrays;
+
+import javax.swing.text.Document;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.PointerInput;
+import org.openqa.selenium.interactions.PointerInput.MouseButton;
+import org.openqa.selenium.interactions.PointerInput.Origin;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import io.appium.java_client.PerformsTouchActions;
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import io.appium.java_client.touch.offset.PointOption;
+import utilities.Browser.UtilityCustomFunctions;
 
 
 public class NavigatetoResponse {
 	WebDriver driver;
-	public NavigatetoResponse(WebDriver driver) {
+	public NavigatetoResponse(AndroidDriver driver) {
 		this.driver = driver;
 		//PageFactory.initElements(new AppiumFieldDecorator(driver),this);
 		PageFactory.initElements(driver,this);
 	}
-	
+
+
 	//WebElements
 	@FindBy(xpath="//input[@placeholder='E-Mail']")
 	WebElement txtLoginEmail;
@@ -55,6 +67,20 @@ public class NavigatetoResponse {
 	@FindBy(xpath="(//i[@class='material-icons sidebar-icon resp-page-icon ng-star-inserted'])[1]")
 	WebElement lnkFirstResponse;
 	
+	@FindBy(xpath="//android.widget.ImageButton[@content-desc='Customise and control Google Chrome']")
+	WebElement lnkMenuButton;
+	
+	@FindBy(id="com.android.chrome:id/checkbox")
+	WebElement lnkDesktopMnuItem;
+	
+//	@FindBy(xpath="//android.view.View[@content-desc=' ']")
+	@FindBy(xpath="//a[@class='bars']")
+	WebElement mnuResponseItem;
+	
+	@FindBy(xpath="//android.view.View[@resource-id='navbar-collapse']")
+	WebElement topmnuItems;
+	
+	
 	//Set Text
 	public void setEmailId(String strEmailId) {
 		//utilities.UtilityCustomFunctions.sendKeys(driver, txtLoginEmail, strEmailId);
@@ -67,7 +93,35 @@ public class NavigatetoResponse {
 	
 	}
 	//Click Action
+	public void clickDesktopSite() throws Exception {
+		lnkDesktopMnuItem.click();
+	}
+	public void clickBrowserMenu() throws Exception {
+		lnkMenuButton.click();
+	}
+	public void clickTopMenu() throws InterruptedException {
+		 System.out.println("Inside java script method");
+		String script = "return window.getComputedStyle(document.querySelector('.bars'),'::after').getPropertyValue('content')";
+        Thread.sleep(3000);
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        String content = (String) js.executeScript(script);
+//      js.executeScript("document.getElementById(content).click();");
+        
+        js.executeScript("arguments[0].click();", "document.getElementById(content)");
+        System.out.println("Content is:" + content);
+	}
 	
+	public void action_clickOnPosition(int pointA_X, int pointA_Y) { 
+		PointerInput finger = new PointerInput(org.openqa.selenium.interactions.PointerInput.Kind.TOUCH, "finger"); 
+		org.openqa.selenium.interactions.Sequence clickPosition = new org.openqa.selenium.interactions.Sequence(finger, 1); 
+		clickPosition .addAction(finger.createPointerMove(Duration.ZERO, Origin.viewport(), pointA_X,pointA_Y)) .addAction(finger.createPointerDown(MouseButton.LEFT.asArg())) .addAction(finger.createPointerUp(MouseButton.LEFT.asArg())); 
+		try {
+			((RemoteWebDriver) driver).perform(Arrays.asList(clickPosition));
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}	
+	}
 	public void clickSubmit() throws Exception {
 //		utilities.UtilityCustomFunctions.doClick(driver, btnSubmitLogin);
 		btnSubmitLogin.click();
